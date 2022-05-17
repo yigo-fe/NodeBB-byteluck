@@ -1,4 +1,4 @@
-FROM node:lts
+FROM registry.yigowork.com/ego/node:lts
 
 RUN mkdir -p /usr/src/app && \
     chown -R node:node /usr/src/app
